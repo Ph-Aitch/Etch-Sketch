@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.square {
+    border: .5px solid black;
+    transition: background-color .3s ease;
+}
+
+#btn {
+    padding: 8px 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg , gold,goldenrod 90%);
+    color: #333;
+    cursor: pointer;
+}
+
+p {
+    color: #333;
+    margin-bottom: 15px;
+}
